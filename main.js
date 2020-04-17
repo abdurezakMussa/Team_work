@@ -176,13 +176,13 @@ function teamreport() {
             <p> Email: <a href="mailto:${teamarr[i].getemail()}">${teamarr[i].getemail()}</a> </p>
             `
         if (teamarr[i].getRole() == "Manager") {
-            obj += ` <p> Office No:${teamarr[i].getofficenumber()}</p>`
+            obj += ` <p> Office No: ${teamarr[i].getofficenumber()}</p>`
         }
         else if (teamarr[i].getRole() == "Engineer") {
-            obj += `<p>GitHub: <a href="https://github.com/${teamarr[i].getgithub()}">${teamarr[i].getgithub()}</a></p>`
+            obj += `<p> GitHub: <a href="https://github.com/${teamarr[i].getgithub()}">${teamarr[i].getgithub()}</a></p>`
         }
        else if (teamarr[i].getRole() == "Intern") {
-            obj += `<p> School:${teamarr[i].getschool()} </p>`
+            obj += `<p> School: ${teamarr[i].getschool()} </p>`
         }
 
         obj += `

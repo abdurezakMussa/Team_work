@@ -34,7 +34,7 @@ h2 {
 }
 .member-card {
     width: 250px;
-    height: 34vh;
+    height: 44vh;
     margin-bottom: 5vh;
     background-color: rgb(240, 238, 238);
     box-shadow: 2px 5px 5px black;
