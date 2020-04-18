@@ -30,7 +30,7 @@ function addTeamMember() {
     countId = countId + 1;
 
     inquirer.prompt([
-        {
+        {   
             type: "list",
             message: "Would you like add new team member?",
             choices: ["Yes, add new Engineer", "Yes, add new Intern", "complete"],
@@ -107,7 +107,7 @@ function addEnginer() {
         const email = data.email;
         const github = data.github;
         const engiteam = new Engineer(id, name, email, github);
-        console.log("GitHub "+engiteam.getgithub());
+        // console.log("GitHub "+engiteam.getgithub());
         teamarr.push(engiteam);
 
         addTeamMember();

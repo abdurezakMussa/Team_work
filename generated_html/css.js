@@ -34,9 +34,10 @@ h2 {
 }
 .member-card {
     width: 250px;
-    height: 44vh;
+    height: 38vh;
     margin-bottom: 5vh;
-    background-color: rgb(240, 238, 238);
+    background-color: white;
+    //rgb(240, 238, 238);
     box-shadow: 2px 5px 5px black;
     border-top-left-radius: 10px;
 }
@@ -49,8 +50,8 @@ h2 {
     width: 60vw;
 }
 .card-top {
-    background-color: rgb(228, 174, 76);
-    border: 2px solid rgb(228, 174, 76);
+    background-color: rgba(53, 124, 109, 0.842); 
+    border: 2px solid rgba(53, 124, 109, 0.842);
     width: 246px;
     border-top-left-radius: 10px;
 }
