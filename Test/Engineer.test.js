@@ -2,8 +2,8 @@ const eng = require("../lib/Engineer");
 
 test("set github using constructor argument",()=>{
     const gitname = "githubprofile";
-    const emp = new Engineer("sample",1,"sample@mail.com",gitname);
-    expect(emp.gitname).toBe(gitname);
+    const eng = new Engineer("sample",1,"sample@mail.com",gitname);
+    expect(eng.gitname).toBe(eng);
 });
 
 test("getRole() should return \"Engineer\"", () => {
@@ -13,7 +13,7 @@ test("getRole() should return \"Engineer\"", () => {
   });
 
   test("get github using github()",()=>{
-    const gitname = "githubprofile";
+    const gn = "githubprofile";
     const eng = new Engineer("sample",1,"sample@mail.com","gitname");
-    expect(eng.getRole()).toBe(gitname);
+    expect(eng.getRole()).toBe(gn);
 });

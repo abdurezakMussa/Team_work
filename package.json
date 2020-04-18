@@ -1,13 +1,14 @@
 {
-  "name": "Team_work",
+  "name": "teamwork",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "OOP and testing the code",
+  "main": "main.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test --verbose test/*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

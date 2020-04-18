@@ -1,7 +1,7 @@
 const Employee=require("../lib/Employee")
 test("Instantiate employee instance",()=>{
     const emp = new Employee();
-    expect(typeof(emp)).toBe("object");
+    expect(typeof(emp)).toBe("obj");
     
 });
 
@@ -27,13 +27,13 @@ test("Set email using constructor argument",()=>{
 test("get name using getname()",()=>{
     const name = "sample";
     const emp = new Employee(name);
-    expect(emp.getnamed).toBe(name);
+    expect(emp.getname()).toBe(name);
 });
 
 test("get id using getid()",()=>{
     const val = 1;
     const emp = new Employee("sample",val);
-    expect(emp.getid).toBe(val);
+    expect(emp.getid()).toBe(val);
 });
 
 test("Set email using email()",()=>{
