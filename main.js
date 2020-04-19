@@ -42,7 +42,7 @@ function addTeamMember() {
             
             case "Yes, add new Engineer":
                 {
-                    addEnginer();
+                    addEngineer();
                 }
                 break;
             case "Yes, add new Intern":
@@ -86,7 +86,7 @@ function addManager() {
     })
 }
 
-function addEnginer() {
+function addEngineer() {
     inquirer.prompt([
         {
             message: "Please enter engineer's name",

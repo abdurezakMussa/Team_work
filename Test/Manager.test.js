@@ -1,20 +1,20 @@
 const Manager = require("../lib/Manager");
 
 
-test("set office number using constructor argument",()=>{
+test("set officenumber using constructor argument",()=>{
     const off = 111;
-    const mng = new Manager("sample",1,"sample@mail.com",off);
-    expect(mng.Officenumber).toBe(mng);
+    const mng = new Manager(1,"sample","sample@mail.com",off);
+    expect(mng.Officenumber).toBe(off);
 });
 
 test("getRole() should return \"Manager\"", () => {
     const val = "Manager";
-    const e = new Manager("sample", 1, "sample@test.com",111);
+    const e = new Manager(1,"sample",  "sample@test.com",111);
     expect(e.getRole()).toBe(val);
   });
 
-  test("get office number using get officenumber()",()=>{
+  test("get officenumber using get officenumber()",()=>{
     const off = 111;
-    const mng = new Manager("sample",1,"sample@mail.com",off);
-    expect(mng.Officenumber()).toBe(mng);
+    const mng = new Manager(1,"sample","sample@mail.com",off);
+    expect(mng.getofficenumber()).toBe(off);
 });
