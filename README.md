@@ -30,3 +30,5 @@ Ran all test suites.
 
 Coding@DESKTOP-NAV211N MINGW64 ~/Desktop/Assignment/Team_work (master)
 $
+## License
+ © 2020 Abdurezak M Abdelkader, University of Richmond (Bootcamp Spot)
