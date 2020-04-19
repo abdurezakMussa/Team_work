@@ -11,7 +11,9 @@
    ## Testing
    This program was build using class syntax and constructor functions. The function for each employee type was tested before building out the rest of the program.
   
-## Demo
+## Test Demo
+![Team Work Demo](Preview/Testdemo.gif)
+## Team Profile Generator
 ![Team Work Demo](Preview/Testdemo.gif)
 ## License
  © 2020 Abdurezak M Abdelkader, University of Richmond (Bootcamp Spot)
