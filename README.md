@@ -11,7 +11,7 @@
    ## Testing
    This program was build using class syntax and constructor functions. The function for each employee type was tested before building out the rest of the program.
   
-   ```Coding@DESKTOP-NAV211N MINGW64 ~/Desktop/Assignment/Team_work (master)
+Coding@DESKTOP-NAV211N MINGW64 ~/Desktop/Assignment/Team_work (master)
 $ npm run test
 
 > teamwork@1.0.0 test C:\Users\Coding\Desktop\Assignment\Team_work
